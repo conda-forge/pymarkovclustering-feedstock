@@ -1,5 +1,5 @@
 {% set name = "pymarkovclustering" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pymarkovclustering-{{ version }}.tar.gz
-  sha256: 51893d8614532c52888edbdc57340abfc1b58d06ad64516465268e807b6adbf1
+  sha256: 0a5f72ed7b15ea62c9e38c92a09e3e7445a3ecffe15b7fa246dfea0efd27c703
 
 build:
   entry_points:
